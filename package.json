@@ -1,5 +1,6 @@
 {
   "dependencies": {
+<<<<<<< HEAD
     "@types/node": "^22.10.1",
     "readline-sync": "^1.4.10"
   },
@@ -16,4 +17,8 @@
   "author": "",
   "license": "ISC",
   "description": ""
+=======
+    "readline-sync": "^1.4.10"
+  }
+>>>>>>> 5f516fa81e9000617da6ac3fda51145df69d1c52
 }
