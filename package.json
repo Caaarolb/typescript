@@ -1,12 +1,4 @@
 {
-  "dependencies": {
-<<<<<<< HEAD
-    "@types/node": "^22.10.1",
-    "readline-sync": "^1.4.10"
-  },
-  "devDependencies": {
-    "@types/readline-sync": "^1.4.8"
-  },
   "name": "typescript",
   "version": "1.0.0",
   "main": "index.js",
@@ -16,9 +8,12 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
-=======
+  "description": "",
+  "dependencies": {
+    "@types/node": "^22.10.1",
     "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "@types/readline-sync": "^1.4.8"
   }
->>>>>>> 5f516fa81e9000617da6ac3fda51145df69d1c52
 }
