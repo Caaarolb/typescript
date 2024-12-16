@@ -43,3 +43,13 @@ console.log("\n Listar todos os números multiplicados por 3 (map())")
 let numerosMultiplicadosPorTres = numerosOrdenados.map (n => n * 3)
 
 console.dir(numerosMultiplicadosPorTres)
+
+console.log("\n Listar todos os Estados sem repetições (reduce())")
+
+let estadosSemRepeticoes = estadosRepetidos.reduce((acumulador:string[], estado) => {
+ if(acumulador.indexOf(estado) ===-1)
+    acumulador.push(estado)
+return acumulador;
+}, [])
+
+console.dir(estadosSemRepeticoes)
